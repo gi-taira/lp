@@ -1,0 +1,17 @@
+{
+  "name": "dedup-guarded-fe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint . --ext .js,.mjs,.cjs,.ts,.tsx && stylelint \"**/*.{css,scss}\" && htmlhint .",
+    "format": "prettier --write ."
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs,ts,tsx}": ["eslint --fix", "prettier --write"],
+    "*.{css,scss}": ["stylelint --fix", "prettier --write"],
+    "*.html": ["htmlhint", "prettier --write"],
+    "*.{json,md,yml,yaml}": ["prettier --write"]
+  },
+  "devDependencies": {}
+}

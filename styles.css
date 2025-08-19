@@ -1,0 +1,287 @@
+/* Base Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+}
+
+/* Google-inspired Gradient Backgrounds */
+.gradient-bg {
+  background: linear-gradient(135deg, #ffffff 0%, #fff8f0 30%, #ffeee0 60%, #ffe4d0 100%);
+  position: relative;
+}
+
+.gradient-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://readdy.ai/api/search-image?query=modern%20abstract%20geometric%20background%20with%20orange%20and%20blue%20gradients%20google%20material%20design%20style%20professional%20clean%20minimalist%208k&width=1600&height=800&seq=1&orientation=landscape') center/cover;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.gradient-orange {
+  background: linear-gradient(135deg, #eb6100 0%, #ff8c42 100%);
+}
+
+.gradient-google {
+  background: linear-gradient(135deg, #4285f4 0%, #34a853 25%, #fbbc04 50%, #ea4335 75%, #eb6100 100%);
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, #ffffff 0%, #fff8f0 40%, #4285f4 100%);
+  position: relative;
+}
+
+.gradient-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://readdy.ai/api/search-image?query=elegant%20modern%20abstract%20background%20with%20dominant%20pure%20white%20space%20on%20left%20side%20gradually%20transitioning%20to%20soft%20orange%20and%20blue%20gradient%20on%20right%2C%20minimalist%20design%20with%20subtle%20flowing%20curves%2C%20perfect%20for%20website%20hero%20section%2C%20ensuring%20text%20readability%20on%20white%20area%2C%20professional%20and%20clean%20aesthetic%2C%20high%20end%20luxury%20feel%2C%208k%20quality&width=1600&height=800&seq=2&orientation=landscape') center/cover;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+/* Enhanced Card Styles */
+.card-shadow {
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.08), 0 8px 16px -8px rgba(0, 0, 0, 0.06);
+}
+
+.card-shadow-lg {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.12), 0 12px 24px -8px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 32px 64px -12px rgba(235, 97, 0, 0.15), 0 16px 32px -8px rgba(235, 97, 0, 0.1);
+}
+
+/* Enhanced card styles */
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 2px solid #eb6100;
+  box-shadow: 0 8px 32px rgba(235, 97, 0, 0.1);
+}
+
+.special-offer-card {
+  background: linear-gradient(135deg, #fff8f0 0%, #ffffff 100%);
+  border: 2px solid #eb6100;
+  box-shadow: 0 8px 32px rgba(235, 97, 0, 0.15);
+}
+
+/* Enhanced buttons */
+.btn-primary {
+  background: #eb6100;
+  box-shadow: 0 4px 16px rgba(235, 97, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #d55500;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(235, 97, 0, 0.3);
+}
+
+.btn-cta {
+  background: linear-gradient(135deg, #eb6100 0%, #ff8c42 100%);
+  box-shadow: 0 6px 20px rgba(235, 97, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(235, 97, 0, 0.35);
+}
+
+/* Form Styles */
+input:focus {
+  outline: none;
+}
+
+/* Enhanced Typography */
+.heading-primary {
+  color: #eb6100;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.heading-dark {
+  color: #1f2937;
+  font-weight: 800;
+}
+
+.text-emphasis {
+  color: #eb6100;
+  font-weight: 600;
+}
+
+/* Enhanced Animation Classes */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-in-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Floating animation */
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Table Styles */
+.comparison-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  text-align: left;
+}
+
+.comparison-table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+/* FAQ Styles */
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1.5rem 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  display: flex;
+  justify-content: between;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.faq-answer {
+  display: none;
+  padding-top: 1rem;
+  color: #6b7280;
+}
+
+.faq-answer.active {
+  display: block;
+}
+
+/* Timeline Styles */
+.timeline-container {
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-connector {
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+  bottom: -3rem;
+  width: 2px;
+  background: linear-gradient(to bottom, #eb6100, #4285f4, #34a853);
+}
+
+.timeline-item:last-child .timeline-connector {
+  display: none;
+}
+
+/* Enhanced Service Cards */
+.service-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.service-card:hover::before {
+  left: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .comparison-table {
+    font-size: 0.875rem;
+  }
+  
+  .process-step {
+    padding-left: 2.5rem;
+  }
+  
+  .process-step::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.875rem;
+  }
+}

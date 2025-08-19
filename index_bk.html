@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corma - Empowering Your Journey</title>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>tailwind.config = { theme: { extend: { colors: { primary: '#8b5cf6', secondary: '#a78bfa' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } } }</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+  <style>
+    :where([class^="ri-"])::before {
+      content: "\f3c2";
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .gradient-bg {
+      background: linear-gradient(135deg, #f0f4ff 0%, #f5f0ff 50%, #f0fffa 100%);
+    }
+
+    .gradient-purple {
+      background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+    }
+
+    .card-shadow {
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      outline: none;
+    }
+  </style>
+</head>
+
+<body class="bg-white">
+  <header class="w-full bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-['Pacifico'] text-primary">Corma</a>
+      <nav class="hidden md:flex items-center justify-center flex-1 mx-10">
+        <a href="#" class="mx-4 text-gray-700 hover:text-primary transition-colors">Home</a>
+        <a href="#" class="mx-4 text-gray-700 hover:text-primary transition-colors">Features</a>
+        <a href="#" class="mx-4 text-gray-700 hover:text-primary transition-colors">Pricing</a>
+        <a href="#" class="mx-4 text-gray-700 hover:text-primary transition-colors">How it works</a>
+      </nav>
+      <div>
+        <a href="#" class="text-primary font-medium mr-4 text-sm">Log in</a>
+        <a href="#" class="bg-primary text-white px-4 py-2 rounded-button whitespace-nowrap text-sm">Sign Up</a>
+      </div>
+    </div>
+  </header>
+  <section class="relative overflow-hidden"
+    style="background-image: url('https://readdy.ai/api/search-image?query=elegant%20modern%20abstract%20background%20with%20dominant%20pure%20white%20space%20on%20left%20side%20gradually%20transitioning%20to%20soft%20purple%20and%20blue%20gradient%20on%20right%2C%20minimalist%20design%20with%20subtle%20flowing%20curves%2C%20perfect%20for%20website%20hero%20section%2C%20ensuring%20text%20readability%20on%20white%20area%2C%20professional%20and%20clean%20aesthetic%2C%20high%20end%20luxury%20feel%2C%208k%20quality&width=1600&height=800&seq=3&orientation=landscape'); background-size: cover; background-position: center;">
+    <div class="container mx-auto px-4 py-20">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="w-full md:w-7/12 mb-10 md:mb-0">
+          <h1 class="text-5xl md:text-6xl font-black text-gray-900 mb-6">Empowering Journey<br>Inspiring Your Potential
+          </h1>
+          <p class="text-xl text-gray-700 mb-10 max-w-[520px]">A comprehensive digital solution for businesses to
+            streamline processes, enhance productivity.</p>
+          <div class="flex flex-wrap gap-4">
+            <a href="#"
+              class="group relative bg-gradient-to-r from-[#9333ea] to-primary text-white px-12 py-4 rounded-full font-medium whitespace-nowrap overflow-hidden transition-all duration-500 hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-1">
+              <span class="relative z-10 text-lg">Get Started Now - It's Free</span>
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-[#9333ea]/20 via-primary/20 to-[#9333ea]/20 -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out">
+              </div>
+              <div
+                class="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2">
+          <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+            <div class="bg-gray-100 p-3 flex justify-between items-center">
+              <div class="flex items-center">
+                <div class="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-500 mr-2"></div>
+                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+              </div>
+              <div class="text-sm text-gray-500">My Dashboard</div>
+              <div class="w-6"></div>
+            </div>
+            <div class="p-4">
+              <div class="flex justify-between items-center mb-4">
+                <div class="flex items-center">
+                  <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center mr-3">
+                    <i class="ri-line-chart-line text-amber-600 ri-lg"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-medium">KPIs for May Q2 Campaign</h3>
+                    <div class="flex items-center">
+                      <div class="flex">
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-fill text-yellow-400"></i>
+                        <i class="ri-star-line text-gray-300"></i>
+                      </div>
+                      <span class="text-xs text-gray-500 ml-2">4.0</span>
+                      <span class="text-xs text-green-500 ml-2">• Active</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <span class="text-sm text-gray-500 mr-3">Last updated: 2h ago</span>
+                  <div
+                    class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-2 hover:bg-gray-200 cursor-pointer">
+                    <i class="ri-share-line text-gray-500"></i>
+                  </div>
+                  <div
+                    class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 cursor-pointer">
+                    <i class="ri-more-2-fill text-gray-500"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center mb-4 bg-purple-50 p-3 rounded-lg">
+                <i class="ri-notification-3-line text-primary ri-lg mr-2"></i>
+                <p class="text-sm text-gray-700">Campaign performance has increased by 23% compared to last month</p>
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+                <div class="bg-violet-50 p-4 rounded-lg flex flex-col h-full">
+                  <div class="flex items-center mb-2">
+                    <h4 class="font-medium text-sm">Conversion</h4>
+                  </div>
+                  <div class="text-2xl font-bold mb-1">8.7%</div>
+                  <div class="text-xs text-gray-500">12,405 conversions</div>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg flex flex-col h-full">
+                  <div class="flex items-center mb-2">
+                    <h4 class="font-medium text-sm">Engagement</h4>
+                  </div>
+                  <div class="text-2xl font-bold mb-1">73.4%</div>
+                  <div class="text-xs text-gray-500">12,405 interactions</div>
+                </div>
+                <div class="bg-amber-50 p-4 rounded-lg flex flex-col h-full">
+                  <div class="flex items-center mb-2">
+                    <h4 class="font-medium text-sm">Click Rate</h4>
+                  </div>
+                  <div class="text-2xl font-bold mb-1">24.8%</div>
+                  <div class="text-xs text-gray-500">8,932 clicks</div>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg flex flex-col h-full">
+                  <div class="flex items-center mb-2">
+                    <h4 class="font-medium text-sm">ROI</h4>
+                  </div>
+                  <div class="text-2xl font-bold mb-1">342%</div>
+                  <div class="text-xs text-gray-500">$23.5k revenue</div>
+                </div>
+              </div>
+              <div class="mb-6">
+                <div class="flex justify-between items-center mb-3">
+                  <div class="flex items-center">
+                    <h4 class="font-medium">Campaign Performance</h4>
+                    <div class="flex ml-3 space-x-2">
+                      <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Email</span>
+                      <span class="px-2 py-1 bg-secondary/10 text-secondary text-xs rounded-full">Social</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center">
+                    <button id="dailyBtn"
+                      class="text-xs text-gray-500 px-2 py-1 rounded hover:bg-gray-100">Daily</button>
+                    <button id="weeklyBtn"
+                      class="text-xs text-primary px-2 py-1 bg-primary/10 rounded mx-1">Weekly</button>
+                    <button id="monthlyBtn"
+                      class="text-xs text-gray-500 px-2 py-1 rounded hover:bg-gray-100">Monthly</button>
+                  </div>
+                </div>
+                <div id="performanceChart" class="h-64 w-full bg-white"></div>
+                <div class="flex justify-between items-center mt-3 text-xs text-gray-500">
+                  <div>Total Reach: 284,521</div>
+                  <div>Peak Performance: May 15</div>
+                </div>
+              </div>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  const chartDom = document.getElementById('performanceChart');
+                  const myChart = echarts.init(chartDom);
+                  const dailyData = {
+                    dates: ['May 14', 'May 15', 'May 16', 'May 17', 'May 18', 'May 19', 'May 20', 'May 21', 'May 22', 'May 23', 'May 24', 'May 25', 'May 26', 'May 27'],
+                    engagement: [85, 92, 88, 95, 82, 89, 94, 91, 87, 93, 86, 90, 88, 92],
+                    conversion: [145, 152, 138, 158, 142, 149, 156, 151, 147, 153, 146, 150, 148, 155]
+                  };
+                  const weeklyData = {
+                    dates: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6'],
+                    engagement: [120, 132, 101, 134, 90, 170],
+                    conversion: [220, 182, 191, 234, 290, 330]
+                  };
+                  const monthlyData = {
+                    dates: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                    engagement: [480, 520, 410, 550, 380, 680],
+                    conversion: [880, 730, 760, 920, 1150, 1320]
+                  };
+                  function createChartOption(data) {
+                    return {
+                      animation: false,
+                      grid: {
+                        top: 20,
+                        right: 20,
+                        bottom: 30,
+                        left: 40,
+                        containLabel: true
+                      },
+                      tooltip: {
+                        trigger: 'axis',
+                        backgroundColor: 'rgba(255, 255, 255, 0.9)',
+                        borderColor: '#e5e7eb',
+                        borderWidth: 1,
+                        textStyle: {
+                          color: '#1f2937'
+                        }
+                      },
+                      xAxis: {
+                        type: 'category',
+                        data: data.dates,
+                        axisLine: {
+                          lineStyle: {
+                            color: '#e5e7eb'
+                          }
+                        },
+                        axisTick: {
+                          show: false
+                        }
+                      },
+                      yAxis: {
+                        type: 'value',
+                        splitLine: {
+                          lineStyle: {
+                            color: '#e5e7eb'
+                          }
+                        },
+                        axisLine: {
+                          show: false
+                        },
+                        axisTick: {
+                          show: false
+                        }
+                      },
+                      series: [
+                        {
+                          name: 'Engagement',
+                          type: 'line',
+                          smooth: true,
+                          data: data.engagement,
+                          lineStyle: {
+                            color: 'rgba(87, 181, 231, 1)'
+                          },
+                          areaStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                              {
+                                offset: 0,
+                                color: 'rgba(87, 181, 231, 0.2)'
+                              },
+                              {
+                                offset: 1,
+                                color: 'rgba(87, 181, 231, 0.02)'
+                              }
+                            ])
+                          },
+                          symbol: 'none'
+                        },
+                        {
+                          name: 'Conversion',
+                          type: 'line',
+                          smooth: true,
+                          data: data.conversion,
+                          lineStyle: {
+                            color: 'rgba(141, 211, 199, 1)'
+                          },
+                          areaStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                              {
+                                offset: 0,
+                                color: 'rgba(141, 211, 199, 0.2)'
+                              },
+                              {
+                                offset: 1,
+                                color: 'rgba(141, 211, 199, 0.02)'
+                              }
+                            ])
+                          },
+                          symbol: 'none'
+                        }
+                      ]
+                    };
+                  }
+                  function updateButtonStyles(activeButton) {
+                    const buttons = ['dailyBtn', 'weeklyBtn', 'monthlyBtn'];
+                    buttons.forEach(btnId => {
+                      const btn = document.getElementById(btnId);
+                      if (btn === activeButton) {
+                        btn.className = 'text-xs text-primary px-2 py-1 bg-primary/10 rounded mx-1';
+                      } else {
+                        btn.className = 'text-xs text-gray-500 px-2 py-1 rounded hover:bg-gray-100';
+                      }
+                    });
+                  }
+                  document.getElementById('monthlyBtn').addEventListener('click', function () {
+                    updateButtonStyles(this);
+                    myChart.setOption(createChartOption(monthlyData));
+                  });
+                  document.getElementById('weeklyBtn').addEventListener('click', function () {
+                    updateButtonStyles(this);
+                    myChart.setOption(createChartOption(weeklyData));
+                  });
+                  document.getElementById('dailyBtn').addEventListener('click', function () {
+                    updateButtonStyles(this);
+                    myChart.setOption(createChartOption(dailyData));
+                  });
+                  myChart.setOption(createChartOption(dailyData));
+                  window.addEventListener('resize', function () {
+                    myChart.resize();
+                  });
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-2">Trusted by <span id="customerCount" class="text-primary">0</span>+
+          Businesses</h2>
+        <p class="text-gray-600">Leading companies worldwide choose our platform for their growth</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div
+          class="bg-white p-6 rounded-xl shadow-lg partner-item opacity-0 translate-y-4 hover:shadow-xl transition-all duration-300">
+          <div class="flex flex-col items-center text-center">
+            <div
+              class="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#0A66C2] mb-4 transform transition-transform duration-300 hover:scale-110">
+              <i class="ri-linkedin-fill ri-2x text-white"></i>
+            </div>
+            <span class="block font-bold text-3xl mb-2" id="linkedinCount">0</span>
+            <span class="text-base text-gray-600">Professional Users</span>
+            <p class="text-sm text-gray-500 mt-3">Connecting global professionals through our platform</p>
+          </div>
+        </div>
+        <div
+          class="bg-white p-6 rounded-xl shadow-lg partner-item opacity-0 translate-y-4 hover:shadow-xl transition-all duration-300">
+          <div class="flex flex-col items-center text-center">
+            <div
+              class="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#FF6B00] mb-4 transform transition-transform duration-300 hover:scale-110">
+              <i class="ri-creative-commons-by-fill ri-2x text-white"></i>
+            </div>
+            <span class="block font-bold text-3xl mb-2" id="creativeCount">0</span>
+            <span class="text-base text-gray-600">Active Projects</span>
+            <p class="text-sm text-gray-500 mt-3">Empowering businesses with creative solutions</p>
+          </div>
+        </div>
+        <div
+          class="bg-white p-6 rounded-xl shadow-lg partner-item opacity-0 translate-y-4 hover:shadow-xl transition-all duration-300">
+          <div class="flex flex-col items-center text-center">
+            <div
+              class="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#E60023] mb-4 transform transition-transform duration-300 hover:scale-110">
+              <i class="ri-pinterest-fill ri-2x text-white"></i>
+            </div>
+            <span class="block font-bold text-3xl mb-2" id="pinterestCount">0</span>
+            <span class="text-base text-gray-600">Monthly Visitors</span>
+            <p class="text-sm text-gray-500 mt-3">Driving engagement through visual discovery</p>
+          </div>
+        </div>
+        <div
+          class="bg-white p-6 rounded-xl shadow-lg partner-item opacity-0 translate-y-4 hover:shadow-xl transition-all duration-300">
+          <div class="flex flex-col items-center text-center">
+            <div
+              class="w-16 h-16 flex items-center justify-center rounded-2xl bg-[#00A1E9] mb-4 transform transition-transform duration-300 hover:scale-110">
+              <i class="ri-alipay-fill ri-2x text-white"></i>
+            </div>
+            <span class="block font-bold text-3xl mb-2" id="alipayCount">0</span>
+            <span class="text-base text-gray-600">Daily Transactions</span>
+            <p class="text-sm text-gray-500 mt-3">Secure and seamless payment processing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script id="partnerAnimationScript">
+      document.addEventListener('DOMContentLoaded', function () {
+        const animateNumber = (element, start, end, duration) => {
+          let current = start;
+          const increment = (end - start) / (duration / 16);
+          const timer = setInterval(() => {
+            current += increment;
+            if (current >= end) {
+              current = end;
+              clearInterval(timer);
+            }
+            element.textContent = Math.floor(current).toLocaleString();
+          }, 16);
+        };
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+              const section = entry.target;
+              const customerCount = document.getElementById('customerCount');
+              const partnerItems = section.querySelectorAll('.partner-item');
+              if (!section.hasAttribute('data-animated')) {
+                section.setAttribute('data-animated', 'true');
+                animateNumber(customerCount, 0, 140000, 2000);
+                const counts = {
+                  'linkedinCount': 850,
+                  'creativeCount': 500,
+                  'pinterestCount': 450,
+                  'alipayCount': 1200,
+                  'mastercardCount': 210,
+                  'airbnbCount': 660,
+                  'microsoftCount': 400,
+                  'googleCount': 270
+                };
+                partnerItems.forEach((item, index) => {
+                  setTimeout(() => {
+                    item.style.transition = 'all 0.6s ease-out';
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                    const countElement = item.querySelector('[id$="Count"]');
+                    if (countElement) {
+                      animateNumber(countElement, 0, counts[countElement.id], 1500);
+                    }
+                  }, index * 100);
+                });
+              }
+            }
+          });
+        }, {
+          threshold: 0.5,
+          rootMargin: '-10% 0px'
+        });
+        observer.observe(document.querySelector('section.py-16.bg-white'));
+      });
+    </script>
+  </section>
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <span
+          class="inline-block px-4 py-1 bg-purple-100 text-primary rounded-full text-sm font-medium mb-3">Features</span>
+        <h2 class="text-3xl font-bold mb-2">AI-Powered Problem Solving</h2>
+        <p class="text-gray-600">Advanced AI capabilities to understand and solve your business challenges</p>
+      </div>
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="w-full md:w-1/2 mb-8 md:mb-0">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="p-6">
+              <div class="space-y-3 mb-6">
+                <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                  <div class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                    <i class="ri-check-line text-primary"></i>
+                  </div>
+                  <span>Natural language understanding</span>
+                </div>
+                <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                  <div class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                    <i class="ri-check-line text-primary"></i>
+                  </div>
+                  <span>Contextual problem analysis</span>
+                </div>
+                <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                  <div class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                    <i class="ri-check-line text-primary"></i>
+                  </div>
+                  <span>Real-time solution suggestions</span>
+                </div>
+              </div>
+              <div class="flex items-center justify-center">
+                <div
+                  class="w-32 h-32 bg-gradient-to-br from-purple-600 to-purple-400 rounded-full flex items-center justify-center opacity-80 relative z-10">
+                  <span class="text-white font-bold">95%</span>
+                </div>
+                <div
+                  class="w-32 h-32 bg-gradient-to-br from-blue-600 to-blue-400 rounded-full flex items-center justify-center opacity-80 -ml-10 relative z-20">
+                  <span class="text-white font-bold">89%</span>
+                </div>
+                <div
+                  class="w-32 h-32 bg-gradient-to-br from-green-600 to-green-400 rounded-full flex items-center justify-center opacity-80 -ml-10 relative z-30">
+                  <span class="text-white font-bold">98%</span>
+                </div>
+              </div>
+              <p class="text-center text-gray-600 mt-6">
+                Powered by advanced AI to understand and solve complex business challenges with high accuracy
+              </p>
+              <div class="text-center mt-6">
+                <a href="#"
+                  class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-button inline-block font-medium whitespace-nowrap">Try
+                  Our AI Assistant</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-5/12">
+          <h3 class="text-2xl font-bold mb-4">Intelligent Problem Resolution</h3>
+          <p class="text-gray-600 mb-6">Our AI assistant provides smart, contextual solutions by understanding your
+            unique business challenges. With advanced natural language processing, it delivers accurate and actionable
+            recommendations in real-time.</p>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <i class="ri-brain-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-medium mb-1">Smart Analysis</h4>
+                <p class="text-gray-600">Deep understanding of business context and challenges</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <i class="ri-robot-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-medium mb-1">24/7 AI Support</h4>
+                <p class="text-gray-600">Instant responses and solutions at any time</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <i class="ri-line-chart-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-medium mb-1">Performance Insights</h4>
+                <p class="text-gray-600">Data-driven recommendations for better outcomes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="w-full md:w-1/2 mb-8 md:mb-0 md:pr-12">
+          <h2 class="text-3xl font-bold mb-4">Start Conversations<br>That Get Replies</h2>
+          <p class="text-gray-600 mb-6">Experience seamless problem-solving with our AI chatbot that understands your
+            business challenges and provides actionable insights in real-time.</p>
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="ri-chat-1-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-medium">Smart Response Suggestions</h4>
+                <p class="text-gray-600">AI-powered replies that sound natural and on-brand</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="ri-time-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-medium">Scheduled Messaging</h4>
+                <p class="text-gray-600">Intelligent chatbot learns from interactions to provide better solutions over
+                  time</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="ri-emotion-line text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-medium">Sentiment Analysis</h4>
+                <p class="text-gray-600">Advanced AI analysis of user messages to provide more accurate and contextual
+                  solutions</p>
+              </div>
+            </div>
+          </div>
+          <a href="#"
+            class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-button inline-block font-medium whitespace-nowrap">Try
+            It Now</a>
+        </div>
+        <div class="w-full md:w-5/12">
+          <div class="bg-white rounded-lg shadow-lg p-6">
+            <div class="flex justify-between items-center mb-6">
+              <div class="flex items-center">
+                <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
+                  <i class="ri-chat-3-line text-primary"></i>
+                </div>
+                <div>
+                  <h4 class="font-medium">Chat Console</h4>
+                  <p class="text-xs text-gray-500">3 active conversations</p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center mr-2">
+                  <i class="ri-search-line text-gray-500"></i>
+                </div>
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                  <i class="ri-more-2-fill text-gray-500"></i>
+                </div>
+              </div>
+            </div>
+            <div class="mb-6 chat-messages" style="opacity: 0;">
+              <div class="flex justify-end mb-4 message" style="opacity: 0; transform: translateY(20px);">
+                <div class="bg-primary/10 text-gray-800 rounded-lg rounded-tr-none p-3 max-w-xs">
+                  <p>Hi, I need help analyzing my e-commerce business performance. Our conversion rates have been
+                    declining lately.</p>
+                </div>
+              </div>
+              <div class="flex mb-4 message" style="opacity: 0; transform: translateY(20px);">
+                <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-2 flex-shrink-0">
+                  <span class="text-blue-600 text-xs font-bold">AI</span>
+                </div>
+                <div class="bg-gray-100 text-gray-800 rounded-lg rounded-tl-none p-3 max-w-xs">
+                  <p>I'll help you analyze that. Could you share your current conversion rate and when you noticed the
+                    decline? This will help me provide more targeted recommendations.</p>
+                </div>
+              </div>
+              <div class="flex justify-end message" style="opacity: 0; transform: translateY(20px);">
+                <div class="bg-primary/10 text-gray-800 rounded-lg rounded-tr-none p-3 max-w-xs">
+                  <p>Our conversion rate dropped from 3.2% to 1.8% over the last month. We haven't made any major
+                    changes to the site.</p>
+                </div>
+              </div>
+            </div>
+            <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                const magnifier = document.createElement('div');
+                magnifier.className = 'magnifier';
+                document.body.appendChild(magnifier);
+                const heroSection = document.querySelector('section.relative.overflow-hidden');
+                const ctaSection = document.querySelector('.py-24.bg-gradient-to-br');
+                heroSection.classList.add('magnifier-section');
+                ctaSection.classList.add('magnifier-section');
+                let isMouseMoving = false;
+                let mouseTimeout;
+                let isInMagnifierSection = false;
+                function updateMagnifier(e) {
+                  const target = e.target.closest('.magnifier-section');
+                  isInMagnifierSection = !!target;
+                  if (isInMagnifierSection) {
+                    magnifier.classList.add('active');
+                    magnifier.style.left = e.clientX + 'px';
+                    magnifier.style.top = e.clientY + 'px';
+                    if (!isMouseMoving) {
+                      isMouseMoving = true;
+                      magnifier.style.opacity = '1';
+                    }
+                    clearTimeout(mouseTimeout);
+                    mouseTimeout = setTimeout(() => {
+                      isMouseMoving = false;
+                      magnifier.style.opacity = '0';
+                    }, 150);
+                  } else {
+                    magnifier.classList.remove('active');
+                    magnifier.style.opacity = '0';
+                  }
+                }
+                document.addEventListener('mousemove', updateMagnifier);
+                document.addEventListener('mouseleave', () => {
+                  magnifier.style.opacity = '0';
+                  magnifier.classList.remove('active');
+                });
+                const observer = new IntersectionObserver((entries) => {
+                  entries.forEach(entry => {
+                    if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+                      const chatMessages = entry.target;
+                      if (!chatMessages.hasAttribute('data-animated')) {
+                        chatMessages.setAttribute('data-animated', 'true');
+                        chatMessages.style.opacity = '1';
+                        chatMessages.style.transition = 'opacity 0.3s ease-out';
+                        const messages = chatMessages.querySelectorAll('.message');
+                        messages.forEach((message, index) => {
+                          setTimeout(() => {
+                            message.style.opacity = '1';
+                            message.style.transform = 'translateY(0)';
+                            message.style.transition = 'all 0.5s ease-out';
+                          }, index * 600);
+                        });
+                      }
+                    }
+                  });
+                }, {
+                  threshold: 0.5,
+                  rootMargin: '-10% 0px'
+                });
+                const chatMessages = document.querySelector('.chat-messages');
+                if (chatMessages) {
+                  observer.observe(chatMessages);
+                }
+              });
+            </script>
+            <div class="relative">
+              <input type="text" placeholder="Type your message..."
+                class="w-full bg-gray-100 border-none rounded-full py-3 pl-4 pr-12">
+              <button
+                class="absolute right-3 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                <i class="ri-send-plane-fill text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">SMS & Email Marketing<br>Automation Made Simple</h2>
+      <p class="text-gray-600 mb-12 max-w-2xl mx-auto">Experience intelligent conversations with our AI chatbot that
+        understands and solves your problems instantly. Get personalized solutions and 24/7 automated support for all
+        your inquiries.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div class="bg-gray-50 p-6 rounded-lg feature-card transition-all duration-300">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="ri-line-chart-line text-primary ri-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Expanding Your Reach</h3>
+          <p class="text-gray-600">Connect with more potential customers through targeted campaigns that deliver
+            results. Reach the right audience at the right time.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg feature-card transition-all duration-300">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="ri-mail-send-line text-primary ri-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Multichannel Delivery</h3>
+          <p class="text-gray-600">Seamlessly integrate SMS, email, and social media messaging to create cohesive
+            marketing campaigns across all channels.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg feature-card transition-all duration-300">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="ri-robot-line text-primary ri-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">AI-Driven Optimization</h3>
+          <p class="text-gray-600">Let our intelligent system analyze performance and suggest improvements to maximize
+            engagement and conversion rates.</p>
+        </div>
+      </div>
+      <a href="#"
+        class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-button inline-block font-medium whitespace-nowrap">Start
+        Automating Today</a>
+    </div>
+  </section>
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <span
+          class="inline-block px-4 py-1 bg-purple-100 text-primary rounded-full text-sm font-medium mb-3">Testimonials</span>
+        <h2 class="text-3xl font-bold mb-2">People's Observations</h2>
+        <p class="text-gray-600">See what our customers have to say about their experience</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full overflow-hidden mr-3">
+              <img
+                src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20an%20asian%20male%20business%20executive%20in%20his%2030s%20wearing%20a%20navy%20suit%20with%20a%20confident%20smile%2C%20clean%20background%2C%20high%20quality%20studio%20lighting%2C%204k&width=200&height=200&seq=1&orientation=squarish"
+                alt="Michael Chen" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <h4 class="font-medium">Michael Chen</h4>
+              <p class="text-xs text-gray-500">Marketing Director, TechFlow</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-4">"This platform has transformed how we approach customer engagement. The
+            automation features have saved us countless hours while improving our results."</p>
+          <div class="flex">
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full overflow-hidden mr-3">
+              <img
+                src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20latina%20female%20business%20executive%20in%20her%2040s%20wearing%20a%20black%20blazer%20with%20a%20warm%20smile%2C%20clean%20background%2C%20high%20quality%20studio%20lighting%2C%204k&width=200&height=200&seq=2&orientation=squarish"
+                alt="Sophia Rodriguez" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <h4 class="font-medium">Sophia Rodriguez</h4>
+              <p class="text-xs text-gray-500">CEO, GrowthBound</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-4">"The analytics capabilities are impressive. We can now make data-driven
+            decisions that have significantly improved our conversion rates."</p>
+          <div class="flex">
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-half-fill text-yellow-400"></i>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full overflow-hidden mr-3">
+              <img
+                src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20latina%20female%20business%20executive%20in%20her%2040s%20wearing%20a%20black%20blazer%20with%20a%20warm%20smile%2C%20clean%20background%2C%20high%20quality%20studio%20lighting%2C%204k&width=200&height=200&seq=2&orientation=squarish"
+                alt="Sophia Rodriguez" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <h4 class="font-medium">Daniel Park</h4>
+              <p class="text-xs text-gray-500">E-commerce Manager, StyleHub</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-4">"The email and SMS integration has been a game-changer for our flash sales.
+            We've seen a 40% increase in revenue since implementing this solution."</p>
+          <div class="flex">
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-line text-yellow-400"></i>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 rounded-full overflow-hidden mr-3">
+              <img
+                src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20latina%20female%20business%20executive%20in%20her%2040s%20wearing%20a%20black%20blazer%20with%20a%20warm%20smile%2C%20clean%20background%2C%20high%20quality%20studio%20lighting%2C%204k&width=200&height=200&seq=2&orientation=squarish"
+                alt="Sophia Rodriguez" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <h4 class="font-medium">Emma Thompson</h4>
+              <p class="text-xs text-gray-500">Digital Strategist, InnovateNow</p>
+            </div>
+          </div>
+          <p class="text-gray-600 mb-4">"The customer support team is exceptional. They've helped us optimize our
+            workflows and get the most out of the platform's capabilities."</p>
+          <div class="flex">
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+            <i class="ri-star-fill text-yellow-400"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-24 bg-gradient-to-br from-primary/5 via-white to-primary/5 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-pattern opacity-5"></div>
+    <div class="container mx-auto px-4 relative">
+      <div class="max-w-4xl mx-auto text-center cta-content opacity-0 translate-y-8">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Transform Your Business?</h2>
+        <p class="text-xl text-gray-600 mb-8">Join thousands of successful businesses using our platform to grow their
+          revenue</p>
+        <div class="flex flex-col items-center gap-4">
+          <a href="#"
+            class="bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-button text-lg font-medium whitespace-nowrap transform hover:scale-105 transition-transform">Get
+            Started Free</a>
+          <div class="flex items-center gap-2 text-gray-600">
+            <i class="ri-shield-check-line text-primary ri-lg"></i>
+            <span>14-day free trial • No credit card required</span>
+          </div>
+        </div>
+        <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div class="stat-item opacity-0 translate-y-4">
+            <div class="text-3xl font-bold text-primary mb-2">98%</div>
+            <p class="text-gray-600">Customer Satisfaction</p>
+          </div>
+          <div class="stat-item opacity-0 translate-y-4">
+            <div class="text-3xl font-bold text-primary mb-2">24/7</div>
+            <p class="text-gray-600">Expert Support</p>
+          </div>
+          <div class="stat-item opacity-0 translate-y-4">
+            <div class="text-3xl font-bold text-primary mb-2">10x</div>
+            <p class="text-gray-600">ROI Average</p>
+          </div>
+          <div class="stat-item opacity-0 translate-y-4">
+            <div class="text-3xl font-bold text-primary mb-2">1M+</div>
+            <p class="text-gray-600">Active Users</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <style>
+    .bg-grid-pattern {
+      background-image: linear-gradient(to right, rgba(139, 92, 246, 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(139, 92, 246, 0.1) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+
+    .magnifier-section {
+      cursor: none;
+    }
+
+    .magnifier {
+      width: 100px;
+      height: 100px;
+      position: fixed;
+      border: 2px solid rgba(139, 92, 246, 0.3);
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      z-index: 9999;
+      backdrop-filter: brightness(1.1) contrast(1.1);
+      background: rgba(255, 255, 255, 0.1);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: none;
+    }
+
+    .magnifier.active {
+      display: block;
+    }
+
+    .magnifier::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const magnifier = document.createElement('div');
+      magnifier.className = 'magnifier';
+      document.body.appendChild(magnifier);
+      const heroSection = document.querySelector('section.relative.overflow-hidden');
+      const ctaSectionElement = document.querySelector('.py-24.bg-gradient-to-br');
+      if (heroSection) heroSection.classList.add('magnifier-section');
+      if (ctaSectionElement) ctaSectionElement.classList.add('magnifier-section');
+      let isMouseMoving = false;
+      let mouseTimeout;
+      let isInMagnifierSection = false;
+      function updateMagnifier(e) {
+        const target = e.target.closest('.magnifier-section');
+        isInMagnifierSection = !!target;
+        if (isInMagnifierSection) {
+          magnifier.classList.add('active');
+          magnifier.style.left = e.clientX + 'px';
+          magnifier.style.top = e.clientY + 'px';
+          if (!isMouseMoving) {
+            isMouseMoving = true;
+            magnifier.style.opacity = '1';
+          }
+          clearTimeout(mouseTimeout);
+          mouseTimeout = setTimeout(() => {
+            isMouseMoving = false;
+            magnifier.style.opacity = '0';
+          }, 150);
+        } else {
+          magnifier.classList.remove('active');
+          magnifier.style.opacity = '0';
+        }
+      }
+      document.addEventListener('mousemove', updateMagnifier);
+      document.addEventListener('mouseleave', () => {
+        magnifier.style.opacity = '0';
+        magnifier.classList.remove('active');
+      });
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            const section = entry.target;
+            if (!section.hasAttribute('data-animated')) {
+              section.setAttribute('data-animated', 'true');
+              const ctaContent = section.querySelector('.cta-content');
+              const statItems = section.querySelectorAll('.stat-item');
+              if (ctaContent) {
+                ctaContent.style.transition = 'all 0.8s ease-out';
+                ctaContent.style.opacity = '1';
+                ctaContent.style.transform = 'translateY(0)';
+              }
+              if (statItems.length) {
+                statItems.forEach((item, index) => {
+                  setTimeout(() => {
+                    item.style.transition = 'all 0.6s ease-out';
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                  }, index * 200 + 400);
+                });
+              }
+            }
+          }
+        });
+      }, {
+        threshold: 0.5,
+        rootMargin: '-10% 0px'
+      });
+      if (ctaSectionElement) {
+        observer.observe(ctaSectionElement);
+      }
+    });
+  </script>
+  <footer class="bg-gray-900 text-white pt-16 pb-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div>
+          <a href="#" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Corma</a>
+          <p class="text-gray-400 mb-4">Empowering businesses with intelligent marketing solutions since 2018.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Product</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white">Features</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Pricing</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Integrations</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Enterprise</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Security</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Resources</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Guides</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Events</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Case Studies</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Help Center</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-4">Company</h4>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Partners</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Press</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-gray-500 mb-4 md:mb-0">© 2025 Corma, Inc. All rights reserved.</p>
+          <div class="flex space-x-6">
+            <a href="#" class="text-gray-500 hover:text-white text-sm">Terms</a>
+            <a href="#" class="text-gray-500 hover:text-white text-sm">Privacy</a>
+            <a href="#" class="text-gray-500 hover:text-white text-sm">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script id="navigationScript">
+    document.addEventListener('DOMContentLoaded', function () {
+      const mobileMenuButton = document.querySelector('.mobile-menu-button');
+      const mobileMenu = document.querySelector('.mobile-menu');
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', function () {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
